@@ -1,0 +1,21 @@
+DataBase escola
+
+alunos 
+id_aluno-int(auto_incr)
+nome-varchar(255)
+data_nascimento-datetime
+cpf-varchar(14)
+telefone-varchar(14)
+email-varchar(255)
+endereco-varchar(255)
+responsavel-varchar(255)
+
+cursos
+id_curso-int(auto_incr)
+nome_curso-varchar(255)
+duracao- int
+vagas_disponivel- int
+periodo- varchar(50)
+modalidade- varchar(50)
+observacao- varchar(255)
+valor- money
